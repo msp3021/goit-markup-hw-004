@@ -135,7 +135,12 @@ text-decoration:none;}
 
 .hero{
     background-color: #2e2f42;
-    padding: 188px 0; }
+    padding: 188px 0; 
+background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ),
+url(../images/background.jpg);}
 
 .hero-main{
     display: flex;
@@ -204,6 +209,17 @@ h2{
     font-size: 16px;
     line-height:1.5;
     letter-spacing: 0.02em;}
+
+   
+    .goals-icon-box{
+        width: 264px;
+        height: 112px;
+       background-color: #F4F4FD;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8px;  }
 
 .what-are-we-doing{
     padding-bottom: 120px;  }
@@ -279,7 +295,51 @@ gap: 24px;
 text-align: center;
 }
 
+.our-team-icon-box{
+    display: flex;
+    gap:24px;
+   justify-content: center;
+   margin-top: 8px;  }
 
+
+.our-team-icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+   height: 40px;
+margin-top: 8px;
+  margin-left:8px;
+fill:#FFF;
+  background-color: #4D5AE5;
+  border-radius: 50px;  }
+
+  .customers-title{
+   text-align:center;
+   font-size: 36px;
+   font-weight: 700;
+   letter-spacing: 0.72px;
+   line-height:1.11; 
+   color:#2E2F42;
+   margin-top: 120px;
+  }
+.customers-logos{
+    list-style-type: none;
+    display: flex;
+    gap:24px;
+    margin-top: 72px;
+    margin-bottom: 120px;
+   
+}
+.customers-client{
+    fill:#8E8F99;
+    width:168px;
+    height:88px;
+    border:solid;
+    border-color: #8E8F99;
+    border-radius: 4px;
+
+}
 .footer{
     background-color: #2e2f42;
     padding: 100px 0;}
@@ -297,7 +357,10 @@ text-align: center;
 display: inline-block;
 margin-bottom: 16px;}
 
-
+.footer-box{
+    display:flex;
+    
+}
 
 
 .logo-foot{
@@ -311,6 +374,45 @@ margin-bottom: 16px;}
     letter-spacing: 0.32px;
  
     max-width: 264px;}
+
+    .footer-social-media{
+        margin-left: 120px;
+
+    }
+
+    .social-title{
+        color:#FFF;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        margin-bottom: 16px;
+
+    }
+
+    .footer-social{
+        list-style-type: none;
+    display: flex;
+    gap:16px;
+
+
+
+    }
+
+    .footer-social-icon{
+        color:#FFF;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+       height: 40px;
+       background-color: #4D5AE5;
+       fill:#FFF;
+       border-radius: 50px; 
+     
+     
+
+    }
 
 
 /*/PORTFOLIO/*/
