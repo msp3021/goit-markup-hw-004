@@ -223,7 +223,8 @@ h2{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 8px;  }
+        margin-bottom: 8px;
+    cursor: pointer;  }
 
 .what-are-we-doing{
     padding-bottom: 120px;  }
@@ -447,6 +448,7 @@ margin-bottom: 16px;}
 .footer-social-feature{
     height:40px;
     width:40px;
+    cursor: pointer;
 }
 .footer-link{
     width:100%;
