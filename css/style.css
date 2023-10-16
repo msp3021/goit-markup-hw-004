@@ -179,7 +179,8 @@ display: block;
 min-width: 169px;
 height: 56px;
 border: none;
-border-radius: 4px; }
+border-radius: 4px;
+margin-top: 48px; }
 
 .hero-button:hover,
 .hero-button:focus{
